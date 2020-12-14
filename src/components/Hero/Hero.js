@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import styles from "./Hero.scss";
+import PropTypes from "prop-types";
 
 const Hero = (props) => (
   <header className={styles.component}>
@@ -10,5 +11,7 @@ const Hero = (props) => (
     />
   </header>
 );
+
+Hero.propTypes = { titleText: PropTypes.node.isRequired };
 
 export default Hero;

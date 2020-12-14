@@ -9,7 +9,10 @@ class App extends Component {
         <h1 className={styles.title}>My first React app</h1>
         <h2 className={styles.subtitle}>Hello react!</h2>
         <List title={["Things to do", <sup key="1">soon!</sup>]}>
-          <p>God, please let me travel in time!</p>
+          <p>
+            God, please let me travel in time... oh wait, I just got this app...
+            so nevermind!!
+          </p>
         </List>
       </main>
     );
