@@ -1,12 +1,14 @@
-import React from 'react';
+import React from "react";
+import { Component } from "react";
 
-class App extends React.Component {
+class App extends Component {
   render() {
     return (
-      <div>
+      <main className="app-content">
         <h1>My first React app</h1>
-      </div>
-    )
+        <h2>Hello react!</h2>
+      </main>
+    );
   }
 }
 
