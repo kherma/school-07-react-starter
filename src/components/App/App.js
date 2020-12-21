@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styles from './App.scss';
 import PropTypes from 'prop-types';
-import List from './../List/List.js';
+import List from './../List/ListContainer.js';
 
 class App extends Component {
   static propTypes = {
@@ -11,12 +11,12 @@ class App extends Component {
   };
 
   render() {
-    const {title, subtitle, lists} = this.props;
+    const { title, subtitle, lists } = this.props;
     return (
       <main className={styles.component}>
         <h1 className={styles.title}>{title}</h1>
         <h2 className={styles.subtitle}>{subtitle}</h2>
-        {lists.map(listData => (
+        {lists.map((listData) => (
           <List key={listData.id} {...listData} />
         ))}
       </main>
