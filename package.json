@@ -19,6 +19,7 @@
     "react-html-parser": "^2.0.2",
     "react-redux": "^7.0.1",
     "redux": "^4.0.1",
+    "shortid": "^2.2.16",
     "start": "^5.1.0"
   },
   "husky": {
