@@ -1,9 +1,13 @@
 import React from 'react';
 import Container from './../Container/Container.js';
+import Hero from './../Hero/Hero.js';
 
 const Info = () => (
   <Container>
-    <h2>Info</h2>
+    <Hero
+      titleText="About Our App"
+      imageSrc="http://uploads.kodilla.com/bootcamp/fer/11.react/space.png"
+    />
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
