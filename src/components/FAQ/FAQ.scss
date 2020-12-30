@@ -1,0 +1,13 @@
+@import './../../styles/settings.scss';
+
+.question {
+  font-weight: bold;
+  font-size: $question-size;
+  text-align: justify;
+}
+
+.answer {
+  font-size: $answer-size;
+  text-align: justify;
+  margin: 0 0 3rem 2rem;
+}
