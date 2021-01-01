@@ -3,6 +3,7 @@ import Home from '../Home/HomeContainer.js';
 import Info from './../Info/Info.js';
 import FAQ from './../FAQ/FAQ.js';
 import List from './../List/ListContainer.js';
+import SearchResults from './../SearchResults/SearchResultsContainer.js';
 import MainLayout from './../MainLayout/MainLayout.js';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { AnimatedSwitch } from 'react-router-transition';
@@ -21,6 +22,7 @@ const App = () => (
         <Route exact path="/info" component={Info} />
         <Route exact path="/faq" component={FAQ} />
         <Route exact path="/list/:id" component={List} />
+        <Route exact path="/search/:id" component={SearchResults} />
       </AnimatedSwitch>
     </MainLayout>
   </BrowserRouter>
